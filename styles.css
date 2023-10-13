@@ -6,8 +6,8 @@
 }
 
 img {
-    width: 50%;
-    height: 20%;
+    width: 500px;
+    height: 500px;
     border: 5px dashed red;
     border-radius: 50%;
 
@@ -20,6 +20,7 @@ h4 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
     color: magenta;
+    text-align: center;
 }
 
 nav {
@@ -32,4 +33,40 @@ ul {
 
 ol {
     color: green;
+}
+
+ul, ol {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+    padding: 0%;
+  }
+
+.introduction, .conclusion {
+    font-size: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.most_importnat_info {
+    font-style: italic;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+.grid-container {
+    display: inline-grid;
+    column-gap: 50px;
+
 }
