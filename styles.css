@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: aquamarine;
+}
+
+img {
+    width: 50%;
+    height: 20%;
+    border: 5px dashed red;
+    border-radius: 50%;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    color: magenta;
+}
+
+nav {
+    font-size: 26px;
+}
+
+ul {
+    color: blue;
+}
+
+ol {
+    color: green;
+}
