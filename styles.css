@@ -5,7 +5,7 @@
     background-color: aquamarine;
 }
 
-img {
+.imgmain {
     width: 500px;
     height: 500px;
     border: 5px dashed red;
@@ -76,19 +76,44 @@ ol {
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    gap: 1px;
+    grid-auto-rows: minmax(200px, auto);
 }
 
 .one {
-    grid-column: 1 / 3;
-    grid-row: 1;
+    /* grid-column: 1 / 3;
+    grid-row: 1; */
     background-color: blueviolet;
 }
 
 .two {
-    grid-column: 2 / 4;
-    grid-row: 1 / 3;
+    /* grid-column: 2 / 4;
+    grid-row: 1 / 3; */
+    background-color: rgba(141, 99, 121, 0.36)
+}
+
+.three {
+    /* grid-column: 1 / 3;
+    grid-row: 1; */
+    background-color: blueviolet;
+}
+
+.four {
+    /* grid-column: 2 / 4;
+    grid-row: 1 / 3; */
+    background-color: rgba(141, 99, 121, 0.36)
+    
+}
+
+.five {
+    /* grid-column: 1 / 3;
+    grid-row: 1; */
+    background-color: blueviolet;
+}
+
+.six {
+    /* grid-column: 2 / 4;
+    grid-row: 1 / 3; */
     background-color: rgba(141, 99, 121, 0.36)
 }
 
